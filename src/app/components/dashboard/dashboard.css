@@ -1,0 +1,131 @@
+/*Estilos del contenedor del menu desplegable*/
+.dashboard-container {
+  display: flex;
+  transition: margin-left 0.3s ease;
+}
+
+/*Estilos del menu desplegable*/
+.menu {
+  background-color: rgb(40, 40, 40);
+  width: 20vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease;
+}
+
+/*Desplazamiento del menú al cerrarse*/
+.menu.closed {
+  transform: translateX(-100%);
+}
+
+/*Desplazamiento del menú al abrirse*/
+.menu.open {
+  transform: translateX(0);
+}
+
+/*Clase que permite adaptar el contenido al desplazamiento del menú*/
+.content {
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+  padding: 20px;
+  width: 100%;
+}
+
+.dashboard-container.menu-open .content {
+  margin-left: 15vw;
+}
+
+/*Estilos del botón que controla el desplazamiento del menú*/
+.menu-toggle {
+  position: fixed;
+  top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(60, 60, 60);
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.menu-toggle:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+.user-container {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-container label {
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+.img-container {
+  margin-top: 30px;
+  background-color: rgb(197, 206, 203);
+  border-radius: 50%;
+  width: 50%;
+  height: 70%;
+}
+
+.nav-container {
+  margin-top: 60px;
+  height: 50vh;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  height: 7vh;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: rgb(133, 133, 133);
+  color: black;
+}
+
+.sesion-container {
+  margin-top: 3px;
+  display: flex;
+  margin-left: 10px;
+  align-items: end;
+  height: 7vh;
+}
+
+.sesion-container button {
+  height: 70%;
+  width: 40%;
+  background-color: rgb(227, 227, 227);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  border: none;
+}
+
+.sesion-container button a {
+  text-decoration: none;
+}
+
+.sesion-container button:hover {
+  cursor: pointer;
+}

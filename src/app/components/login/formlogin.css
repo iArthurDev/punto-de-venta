@@ -1,0 +1,73 @@
+.formContainer {
+  background-color: rgb(43, 42, 42);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 60vh;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoContainer {
+  background-color: rgb(99, 99, 99);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  height: 60vh;
+  margin-right: 5px;
+}
+
+label {
+  color: white;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10%;
+}
+
+form {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.form-control {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 97%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+  font-size: 1.3rem;
+}
+
+.buttonSubmit {
+  width: 100%;
+  text-align: center;
+}
+
+.buttonSubmit button {
+  background-color: rgb(249, 108, 21);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 35%;
+  height: 45px;
+  margin-top: 5%;
+  font-size: 1.4rem;
+  border-radius: 30px;
+  border: none;
+}
+
+.buttonSubmit button:hover {
+  cursor: pointer;
+}

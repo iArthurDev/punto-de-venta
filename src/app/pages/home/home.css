@@ -1,0 +1,21 @@
+.home-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  transition: margin-left 0.5s ease;
+}
+
+/*Estilos de los contenedores con información de las ventas*/
+.sales {
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 20vw;
+  height: 20vh;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  border: 1px solid black;
+}
+
+.sales:hover {
+  transform: scale(1.1);
+}
