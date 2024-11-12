@@ -5,7 +5,6 @@ export default function Index() {
   return (
     <div className="page-container">
       <FormLogin />
-      <Link href="/pages/home">Ingresar</Link>
     </div>
   );
 }

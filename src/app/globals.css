@@ -2,7 +2,7 @@ html,
 body {
   padding: 0px;
   margin: 0px;
-  background-color: rgb(202, 37, 37);
+  background-color: rgb(229, 229, 229);
 }
 
 /*Estilos para configurar las dimensiones de una vista*/
@@ -27,4 +27,16 @@ body {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
+}
+
+label {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }

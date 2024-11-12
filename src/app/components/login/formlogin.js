@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./formlogin.css";
 
 export default function FormLogin() {
@@ -24,7 +25,9 @@ export default function FormLogin() {
             />
           </div>
           <div className="buttonSubmit">
-            <button type="submit">Ingresar</button>
+            <button type="submit">
+              <Link href="/pages/home">Ingresar</Link>
+            </button>
           </div>
         </form>
       </div>

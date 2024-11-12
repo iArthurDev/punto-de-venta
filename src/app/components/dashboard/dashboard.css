@@ -94,10 +94,6 @@ li {
   color: white;
 }
 
-a {
-  text-decoration: none;
-}
-
 li:hover {
   cursor: pointer;
   background-color: rgb(133, 133, 133);

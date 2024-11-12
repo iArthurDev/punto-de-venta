@@ -12,10 +12,25 @@
   width: 20vw;
   height: 20vh;
   border-radius: 20px;
-  transition: transform 0.3s ease;
   border: 1px solid black;
+  display: flex;
+  flex-direction: row;
 }
 
 .sales:hover {
   transform: scale(1.1);
+}
+
+.sales-info-container {
+  width: 60%;
+  text-align: center;
+}
+
+.sales-info-container label {
+  font-size: 4rem;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: white;
 }
