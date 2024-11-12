@@ -12,7 +12,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 /*Desplazamiento del menú al cerrarse*/
@@ -30,6 +30,11 @@
   margin-left: 0;
   transition: margin-left 0.3s ease;
   padding: 20px;
+  width: 100%;
+}
+
+.full-width {
+  margin-left: 0;
   width: 100%;
 }
 
